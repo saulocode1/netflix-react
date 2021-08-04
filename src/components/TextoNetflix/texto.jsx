@@ -16,22 +16,22 @@ const Texto = () => {
                     câncer terminal.
                 </p>
                 <div className="buttons">
-                    <a href="#assistir" className="watch-button">
+                    <button href="#assistir" className="watch-button">
                         <img
                             className="icon-arrow-right"
                             src={Arrow}
                             alt="Arrow icon"
                         />{" "}
                         Assistir
-                    </a>
-                    <a href="#Detail" className="detail-button">
+                    </button>
+                    <button href="#Detail" className="detail-button">
                         <img
                             className="icon-detail"
                             src={Detail}
                             alt="Detail icon"
                         />{" "}
                         Mais informações
-                    </a>
+                    </button>
                 </div>
             </div>
         </>
